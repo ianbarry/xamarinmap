@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Wayar", "Wayar\Wayar\Wayar.shproj", "{054A0930-781F-4DA4-BDBA-D695BDD8F981}"
 EndProject
@@ -16,6 +16,7 @@ Global
 		Wayar\Wayar\Wayar.projitems*{00c3140f-b423-4bad-a148-81e25a5dd7f7}*SharedItemsImports = 4
 		Wayar\Wayar\Wayar.projitems*{054a0930-781f-4da4-bdba-d695bdd8f981}*SharedItemsImports = 13
 		Wayar\Wayar\Wayar.projitems*{1e73f9a5-5dcc-4c01-99cf-e669dc0d8ad0}*SharedItemsImports = 4
+		Wayar\Wayar\Wayar.projitems*{3c671404-2b05-4c1d-ad00-ef94670a6aa1}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

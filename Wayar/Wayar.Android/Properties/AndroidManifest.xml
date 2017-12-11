@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Wayar" android:installLocation="preferExternal">
-	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="Wayar.Android"></application>
+  <uses-sdk android:minSdkVersion="15" />
+  <application android:label="Wayar.Android" android:icon="@drawable/icon">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyD9o2oftf5FfthDITUXdq9YY0T0quJbQKg" />
+  </application>
 </manifest>
