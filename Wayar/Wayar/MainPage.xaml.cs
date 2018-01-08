@@ -9,7 +9,7 @@ namespace Wayar
         public MainPage()
         {
             InitializeComponent();
-            var stackLayout = new StackLayout();
+            var stackLayout = new StackLayout() { Spacing = 0 };
             InitialiseMap(stackLayout);
 
             Content = stackLayout;
@@ -18,11 +18,13 @@ namespace Wayar
         public void InitialiseMap(StackLayout stackLayout)
         {
             var map = new Map(
-                MapSpan.FromCenterAndRadius(
-                    new Position(37.8044866, -122.4324132),
-                    Distance.FromMiles(0.3)))
+    MapSpan.FromCenterAndRadius(
+            new Position(37, -122), Distance.FromMiles(0.3)))
             {
-                IsShowingUser = false,
+                IsShowingUser = true,
+                HeightRequest = 100,
+                WidthRequest = 960,
+                VerticalOptions = LayoutOptions.FillAndExpand,
                 MapType = MapType.Street
             };
 

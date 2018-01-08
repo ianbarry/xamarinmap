@@ -20,7 +20,8 @@ namespace Wayar.Droid
 			base.OnCreate (bundle);
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
-			LoadApplication (new Wayar.App ());
+            Xamarin.FormsMaps.Init(this, bundle);
+            LoadApplication (new Wayar.App ());
 		}
 	}
 }
